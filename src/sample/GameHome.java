@@ -13,6 +13,11 @@ public class GameHome {
     @FXML
     public void goBack(){
         main.setStart(startScreen);}
+
+    public void toChareters(){
+        main.setScene(investerScreen);
+        }
+
 }
 
 
