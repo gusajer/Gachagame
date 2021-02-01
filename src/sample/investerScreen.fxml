@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InvesterScreen">
    <children>
-      <Button fx:id="goHome" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goHome" text="Back" />
+      <Button fx:id="goHome" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToHome" text="Back" />
+      <ScrollPane layoutX="34.0" layoutY="87.0" prefHeight="285.0" prefWidth="222.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="214.0">
+               <children>
+                  <Button fx:id="loadimg1" layoutY="14.0" mnemonicParsing="false" onAction="#imgs" text="Select1" />
+                  <Button layoutY="49.0" mnemonicParsing="false" text="Select" />
+                  <Button layoutY="88.0" mnemonicParsing="false" text="Select" />
+                  <Label layoutX="70.0" layoutY="18.0" text="Male investor" />
+                  <Label layoutX="70.0" layoutY="53.0" text="Female investor" />
+                  <Label layoutX="70.0" layoutY="92.0" text="Sports Investor" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="334.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </Pane>

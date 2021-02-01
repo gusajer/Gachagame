@@ -12,9 +12,9 @@
             <Image url="Pic/background.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="goback" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
-      <Button fx:id="toInvsetmens" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" text="Invsetmens" />
-      <Button fx:id="toChareters" layoutX="101.0" layoutY="361.0" mnemonicParsing="false" text="Investers" />
+      <Button fx:id="goback" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#openStartScreen" text="Back" />
+      <Button fx:id="toinvsetmens" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" text="Invsetmens" onAction="#openInvestmens" />
+      <Button fx:id="tochareters" layoutX="101.0" layoutY="361.0" mnemonicParsing="false" onAction="#openChareter" text="Investers" />
       <Button fx:id="toGacha" layoutX="171.0" layoutY="361.0" mnemonicParsing="false" text="Gacha" />
       <Button layoutX="226.0" layoutY="361.0" mnemonicParsing="false" text="Button" />
       <Button fx:id="toQuest" layoutX="516.0" layoutY="336.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="70.0" text="Missons" />

@@ -16,6 +16,6 @@
             <Font size="30.0" />
          </font>
       </Text>
-      <Button fx:id="Strat" layoutX="274.0" layoutY="200.0" mnemonicParsing="false" onAction="#switchScene" text="Strat Game" />
+      <Button fx:id="Strat" layoutX="274.0" layoutY="200.0" mnemonicParsing="false" onAction="#openGameHome" text="Strat Game" />
    </children>
 </Pane>
